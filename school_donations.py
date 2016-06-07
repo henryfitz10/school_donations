@@ -5,8 +5,8 @@ import json
 
 app = Flask(__name__)
 
-MONGOD_HOST = 'localhost'
 MONGOD_PORT = 27017
+MONGOD_HOST = 'localhost'
 DBS_NAME = 'donorsUSA'
 COLLECTION_NAME = 'projects'
 FIELDS = {'funding_status': True, 'school_state': True, 'resource_type': True,
