@@ -9,7 +9,7 @@ MONGOD_PORT = 25583
 MONGOD_HOST = 'ds025583.mlab.com'
 DBS_NAME = 'heroku_h1jbt1nc'
 COLLECTION_NAME = 'projects'
-MONGO_URI = 'mongodb://<dbuser>:<dbpassword>@ds025583.mlab.com:25583/heroku_h1jbt1nc'
+MONGO_URI = 'mongodb://root:root@ds025583.mlab.com:25583/heroku_h1jbt1nc'
 FIELDS = {'funding_status': True, 'school_state': True, 'resource_type': True,
 'poverty_level': True, 'date_posted': True, 'total_donations': True, '_id': False}
 
